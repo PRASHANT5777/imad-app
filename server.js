@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/mumbai-indians', function (req, res) {
-  res.send('mumbai indians is three times chamipons');
+  res.sendFile(path.join(__dirname, 'ui', 'mumbai-indians.html'));
 });
 
 app.get('/pune', function (req, res) {
