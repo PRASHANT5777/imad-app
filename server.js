@@ -13,8 +13,8 @@ app.get('/mumbai-indians', function (req, res) {
   res.send('mumbai indians is three times chamipons');
 });
 
-app.get('/pune', function (res, req) {
-    res.send('pune is faltu city peolple of pune are very chute');
+app.get('/pune', function (req, res) {
+  res.send('i am studing in pune');
 });
 
 app.get('/ui/style.css', function (req, res) {
